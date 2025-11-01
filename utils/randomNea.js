@@ -1,4 +1,4 @@
-const neaDex = require('./pokenea')
+const neaDex = require('./neadex')
 
 function getRandomNea() {
     const randomIndex = Math.floor(Math.random() * neaDex.length)

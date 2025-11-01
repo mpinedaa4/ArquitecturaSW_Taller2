@@ -4,7 +4,7 @@ const neaDex = [
         "nombre": "El Brayan",
         "altura": "170",
         "habilidad": "Limosnear",
-        "imagen": "",
+        "imagen": "images/nea1.jpg",
         "frase": "Tener mil pesos es como tener un peso mil veces"
     },
     {
@@ -12,7 +12,7 @@ const neaDex = [
         "nombre": "El Kevin",
         "altura": "168",
         "habilidad": "Meter vicio",
-        "imagen": "",
+        "imagen": "images/nea2.jpeg",
         "frase": "Sin vicio no hay juicio"
     },
     {
@@ -20,7 +20,7 @@ const neaDex = [
         "nombre": "El Yeison",
         "altura": "171",
         "habilidad": "Crear cambuche",
-        "imagen": "",
+        "imagen": "images/nea3.jpg",
         "frase": "No fumen bazuco, tomen yogurt"
     },
     {
@@ -28,7 +28,7 @@ const neaDex = [
         "nombre": "El Mechas",
         "altura": "165",
         "habilidad": "Quitar el hambre",
-        "imagen": "",
+        "imagen": "images/nea4.jpeg",
         "frase": "No chupe sacol que es que eso le hace daño"
     },
     {
@@ -36,7 +36,7 @@ const neaDex = [
         "nombre": "El Perrito",
         "altura": "175",
         "habilidad": "Hacer la vuelta",
-        "imagen": "",
+        "imagen": "images/nea5.jpg",
         "frase": "Don Hétor, présteme el fierro y yo le meto dos tiros"
     },
     {
@@ -44,7 +44,7 @@ const neaDex = [
         "nombre": "El Gigante",
         "altura": "145",
         "habilidad": "Golpe bajo",
-        "imagen": "",
+        "imagen": "images/nea6.jpg",
         "frase": "Suerte mocho"
     },
     {
@@ -52,7 +52,7 @@ const neaDex = [
         "nombre": "El Chirris",
         "altura": "180",
         "habilidad": "Puñal por la espalda",
-        "imagen": "",
+        "imagen": "images/nea7.jpeg",
         "frase": "Dónde está mi ñala"
     }
 ]
