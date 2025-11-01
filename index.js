@@ -1,4 +1,5 @@
 const express = require('express')
+const os = require("os")
 const path = require('path')
 const app = express()
 const port = 80
@@ -17,7 +18,7 @@ app.get('/', (req, res) => {
         "nombre": randomNea.nombre,
         "altura": randomNea.altura,
         "habilidad": randomNea.habilidad,
-        "containerId": ""
+        "containerId": os.hostname()
     }
 
     res.send(nea)
@@ -28,7 +29,7 @@ app.get('/nea-del-dia', (req, res) => {
     const nea = {
         "imagen": randomNea.imagen,
         "frase": randomNea.frase,
-        "containerId": ""
+        "containerId": os.hostname()
     }
 
     res.render('nea-del-dia', { nea })
